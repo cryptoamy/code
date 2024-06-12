@@ -14,11 +14,9 @@ a.Merge raw data  together to get fund flow of all transfer throught Umbra
 b.Identify clusters with a node count greater than 10, which are considered clusters of industrial sybil clusters All addresses within these clusters are designated as sybil addresses. 
 Code:https://github.com/cryptoamy/code/blob/main/umbra_cash_record.py
 
-
-
 We have obtained the exported CSV file ```umbra_sybil_address.csv.```
 ### 1.3. Associate the sybil addresses obtained in 1.2 with the set of Layer Zero User Addresses. The intersection of these sets will be the sybil addresses among Layer Zero users.
-
+Code: https://dune.com/queries/3741946
 
 ### 1.4. Combine the Layer Zero addresses found in 5.3 with the fund flow of all transactions obtained in sector [5.2].Draw the graph of all sybil clusters.
 
