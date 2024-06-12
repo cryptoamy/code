@@ -12,7 +12,7 @@ https://github.com/cryptoamy/layerzero_sybil_scan_report/tree/main/umbra_cash_re
 ### 1.2. Processing Umbra data, identify potential clusters of industrial sybil clustersthrough the fund flow of all transactions. Afterwards, compile a list of sybil addresses.
 a.Merge raw data  together to get fund flow of all transfer throught Umbra
 b.Identify clusters with a node count greater than 10, which are considered clusters of industrial sybil clusters All addresses within these clusters are designated as sybil addresses. 
-
+Code:https://github.com/cryptoamy/code/blob/main/umbra_cash_record.py
 
 
 
